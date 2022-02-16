@@ -1,0 +1,69 @@
+/* header section style */
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+i{
+    color: goldenrod;
+
+}
+
+/* main section style  */
+
+section{
+    width: 100%;
+    display: flex;
+}
+section img{
+    width:100%;
+    margin-left: 20px;
+}
+section p{
+    font-weight:600;
+}
+#calculation{
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.185);
+    margin-left: 80px;
+    margin-right: 40px;
+    padding: 40px;
+}
+#income{
+    margin-left: 200px;
+}
+
+#income h2{
+    font-size: large;
+}
+#calculate-btn{
+    margin-left: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.527);
+    color: aliceblue;
+}
+
+
+/* saving section style */
+#saving-section{
+    display: flex;
+    padding-top: 10px;
+}
+
+#saving-btn{
+    margin-left: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+   padding-bottom: 0px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.527);
+    color: aliceblue;
+
+}
