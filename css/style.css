@@ -12,12 +12,18 @@ i{
 /* main section style  */
 
 section{
-    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    width: 80%;
     display: flex;
 }
 section img{
+    margin-top: 20px;
     width:100%;
-    margin-left: 20px;
+    
+    
+    
 }
 section p{
     font-weight:600;
@@ -25,12 +31,12 @@ section p{
 #calculation{
     width: 80%;
     background-color: rgba(128, 128, 128, 0.185);
-    margin-left: 80px;
+    margin-left: 50px;
     margin-right: 40px;
     padding: 40px;
 }
 #income{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #income h2{
@@ -57,8 +63,8 @@ section p{
 
 #saving-btn{
     margin-left: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 0px;
    padding-bottom: 0px;
     border: 0px;
@@ -66,4 +72,56 @@ section p{
     background-color: rgba(0, 0, 255, 0.527);
     color: aliceblue;
 
+}
+
+/*responsive for mobile devices */
+@media(max-width: 688px){
+    h2{
+        margin-left: 80px;
+        text-align: center;
+        font-size: 20px;
+    }
+    section{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        width: 80%;
+        flex-direction: column;
+    }
+    section img{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width:100%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 0px;
+    }
+    
+    #calculation{
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.322);
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 0px;
+    } 
+    #income{
+        margin-left: 5px;
+        padding: 5px;
+    } 
+    #income h2{
+        font-size: 15px;
+        margin-right: 80px;
+    } 
+    #saving-btn{
+        margin-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+       padding-bottom: 0px;
+        border: 0px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 255, 0.527);
+        color: aliceblue;
+    
+    } 
 }
