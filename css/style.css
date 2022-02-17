@@ -73,6 +73,10 @@ section p{
     color: aliceblue;
 
 }
+.error-section{
+    text-align: center;
+    display: none;
+}
 
 /*responsive for Tab */
 @media(min-width:689px) and  (max-width:900px)  {

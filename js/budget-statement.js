@@ -15,6 +15,12 @@ document.getElementById('calculate-btn').addEventListener('click', function(){
     const clothesInput=document.getElementById('clothes-input');
     const clothesInputText=clothesInput.value;
     const clothesAmount=parseFloat(clothesInputText);
+
+    // error handling
+    if(foodAmount!='number' || rentAmount!= 'number' || clothesAmount!='number' ){
+        const errorMessage=document.getElementById('failed-task');
+        errorMessage.style.display='block';
+    }
     
 
     // get Total Expenses
