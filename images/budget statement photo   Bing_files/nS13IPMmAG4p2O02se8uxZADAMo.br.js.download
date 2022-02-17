@@ -1,1 +1,0 @@
-var MySavesAPIUtils;(function(n){n.BaseUrl="/mysaves/collections/"})(MySavesAPIUtils||(MySavesAPIUtils={}))
